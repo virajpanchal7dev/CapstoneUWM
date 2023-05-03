@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#popup {
+    position: fixed;
+    background-color: #EDD;
+    padding: 3%;
+    top: 50%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    border-radius: 25px;
+    z-index: 10;
+    display: none;
+}
+
+/* #overlay { 
+    position: fixed;
+    background-color: rgba(36,122,159,255);
+    width: 56%;
+    height: 58%;
+    display: none;
+    border-radius: 25px;
+} */
